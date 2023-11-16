@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@200&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container-header{
+    display: flex ;
+    background-color: #1e90ff;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+ 
+}
+
+
+/* My header starts here */
+/* my logo is here. */
+
+.logo img{
+    width: 30%;
+    height: 30%;
+   
+         }
+.logo{ width: 20%;
+     }
+     #check{
+        float: right;
+        /* position: absolute; */
+        margin-top: 100px;
+        line-height: 2.1rem;
+
+     }
+
+     #check:checked ~ ul{
+  flex-direction: column;
+     }
+     .menubar{
+       float: right;
+       cursor: pointer;
+     }
+/* Here is my ul style */
+
+.nav ul li{
+    display: inline-block; 
+
+          }
+
+
+.nav ul li a{
+    color: #ffffff;  
+    padding: 0 8px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+            } 
+
+/* This is my span style */
+span{
+    background-color: #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+/* Here is where i hide my icon */
+
+.span1{
+    display: none;
+}
+
+/* my login and get started design starts here */
+
+.btn-login{
+    font-size: 16px;
+    /* padding: 0 10px; */
+    color: #ffffff;
+    border: #ffffff 3px solid;
+    padding: 7px 30px;
+    border-radius: 5px;
+    
+
+}
+.btn-login:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px red solid;
+    
+}
+.btn-get-started{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2171cc;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/* All the header menu style ends here. */
+
+/* My section starts here */
+
+.section{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 30px;
+    
+}
+.title{
+    /* background-color: red; */
+    width: 60%;
+    margin: 0px auto;
+
+}
+.title h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.title p{
+    font-size: 15.5px;
+    text-align: center;
+    color: yellow;
+}
+.btn-file{
+    background-color: #2171cc;
+    text-align: center;
+    width: 13%;
+    margin: 0px auto;
+    padding: 20px 10px;
+   
+ }
+ .btn-file a{
+    color: black;
+    font-weight: bold; 
+ }
+
+ .img img{
+        width: 100%;
+        padding-top: 50px;
+
+ }
+ .img{
+width: 50%;
+margin: auto;
+
+ }
+ .fa-arrow-right:hover{
+    transform: scaleX(1.2);
+ }
+
+ .fa-arrow-right{
+    padding: 5px;
+ }
+  /* All the section menu style ends here */
+  
+  /* My service container starts here */
+
+  .service h1{
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px;
+    font-size: 38px;
+    color: #ffffff;
+      }
+      
+.service-main{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0px 100px; */
+  }
+
+  .port{
+    padding: 10px 20px;
+  }
+
+.port > p:nth-child(2){
+color: #ffff00;
+    font-size: 20px;
+}
+
+.port > p:nth-child(3){
+    color: #ffffff;
+        font-size: 20px;
+}
+.fa-active{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* My service section ends here */
+/* My portfolio section starts here */
+
+.portfolio{
+ background-color:#0000ff ;
+ padding: 20px;
+ color: #ffffff;
+}
+
+.portfolio-image img{ 
+    width: 98%;
+    height:250% 
+
+}
+.portfolio-flex{
+    display: flex;
+    text-align: center;
+}
+
+.portfolio h2{
+    /* background-color: red; */
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 35px;
+    color: white;
+}
+
+.portfolio-section .portfolio-title{
+text-align:left;
+padding: 30px 0px;
+/* font-weight: bold; */
+
+
+}
+.portfolio-title p{
+    padding: 50px 0px;
+    color: #ffffff;
+
+
+}
+
+.portfolio-title h3{
+    color: #ffffff;
+}
+
+
+
+.btn-portfolio{
+   background-color: #4dbdf1;
+   max-width: fit-content;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 80px;
+   
+}
+.btn-portfolio a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa-arrow-right-long{
+    padding: 40px;
+   
+}
+.fa-arrow-right-long:hover{
+    transform: scale(1.2);
+}
+
+/* This is where the portfolio section ends */
+
+/* This is the start of the footer section */
+
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000
+ 
+}
+
+.footer-main{
+background-color: #ffe4c4;
+position: relative;
+color: white;
+
+}
+.footer-column-one-icons ul li{
+    padding: 20px;
+    position: relative;
+    left: -4%;
+}
+.footer-column-two-icons ul li{
+    padding: 20px;
+    position: relative;
+    top: -637px;
+    left: 17%;
+}
+.footer-column-three-icons ul li{
+    padding: 20px;
+    position: relative;
+    top: -1275px;
+    left: 40%;
+}
+.footer-column-four-icons ul li{
+    padding: 20px;
+    position: relative;
+    top: -1910px;
+    left: 66%;
+}
+.footer-column-five-icons ul li{
+    padding: 20px;
+    position: relative;
+    top: -2420px;
+    left: 89%;
+}
+
+
+
+/* This is where my mobile responsivenes starts. */
+  /* Here is for mobile phone design */
+@media (min-width: 1182px) and (max-width:1196px){
+
+    .nav ul{
+        margin-left: -10%;
+                }
+    .nav ul li a{
+    padding: 0 3px;
+    font-size: 16px;
+
+}
+}
+
+
+/* @media (min-width) */
+
+
+@media (min-width:1003px) and (max-width:1013px) {
+  
+        .nav ul li a{
+               padding: 0 3px;
+               font-size: 13px;
+               
+                  }
+        .btn-login{
+        font-size: 13px;
+        padding: 7px 16px;
+           }
+        .btn-get-started{
+            font-size: 13px;
+            padding: 7px 12px;
+            margin-right: -12px;
+                 }
+        .nav ul{
+        margin-left: -2%;
+        
+                }
+    }
+  
+    
+@media (min-width:733px) and (max-width:1001px){
+    .logo img{
+        width: 90%;
+        height: 30%;
+    }
+   .nav ul li a{
+        font-size: 16px;
+       
+       
+    }
+    .nav ul li{
+        margin-left: -10%;
+        display: block;
+    }
+    .span1{
+        display: inline-block;
+
+    }
+}
+
+ 
+ @media (min-width:717px) and (max-width: 732px){
+    .logo img{
+        width: 90%;
+        height: 30%;
+    }
+   .nav ul li a{
+        font-size: 16px;
+       
+       
+    }
+    .nav ul li{
+        margin-left: -10%;
+        display: block;
+    }
+    .span1{
+        display: inline-block;   
+    }
+ }
+ @media (min-width:608px) and (max-width:716px){
+   
+ .logo img{
+    width: 110%;
+    height: 30%;
+}
+.nav ul li a{
+    font-size: 20px;
+   
+   
+}
+.nav ul li{
+    margin-left: -10%;
+    display: block;
+}   
+.span1{
+    display: inline-block;
+}
+}
+
+@media (min-width:415px) and (max-width:607px){
+
+    .logo img{
+        width: 130%;
+        height: 30%;
+    }
+    .nav ul li a{
+        font-size: 13px;
+       
+       
+    }
+    .nav ul li{
+        margin-left: -10%;
+        display: block;
+    } 
+    span{  
+        font-size: 13px;
+        padding: 2px;
+        font-weight: bold;
+        position: absolute;
+        top: 33.5%;
+        right: 42%
+    }  
+    .btn-login{
+        font-size: 13px;
+        padding: 2px 10px;
+        
+
+     
+    }
+    .btn-get-started{
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+.span1{
+    display: inline-block;
+}
+        
+}
+
+
+@media (min-width:250px) and (max-width:414px){
+
+    .logo img{
+        width: 15%;
+        height: 30px;
+        position: absolute;
+        right: 65%;
+        
+
+    }
+    .nav ul li a{
+        font-size: 13px;
+       
+       
+    }
+    .nav ul li{
+        margin-left: -50%;
+        display: block;
+    } 
+    span{  
+        font-size: 13px;
+        padding: 2px;
+        font-weight: bold;
+        position: absolute;
+        top: 33%;
+        right: 34%
+    }  
+    .btn-login{
+        font-size: 13px;
+        padding: 4px 14px;
+        position: absolute;
+        right: 9%;
+        top: 15%;
+    }
+    .btn-get-started{
+        font-size: 13px;
+        padding: 4px 10px;
+        position: absolute;
+        right: 7%;
+        top:24% ;
+}
+.span1 i{
+    display: inline-block;
+    font-size: 30px;
+    color: yellow;
+}
+
+}
